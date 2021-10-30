@@ -25,7 +25,6 @@ let package = Package(
                 "contrib/travis.sh",
                 
                 "src/asm",
-                "src/java",
 
                 // exclude benchmarks
                 "src/bench_ecdh.c",
@@ -54,27 +53,15 @@ let package = Package(
                 "src/modules/recovery/Makefile.am.include",
                 "src/modules/ecdh/Makefile.am.include",
 
-                "src/stamp-h1",
-
                 // exclude docs and autotools related files
                 "build-aux",
                 "obj",
                 "sage",
-                "aclocal.m4",
-                "autom4te.cache",
                 "autogen.sh",
-                "config.log",
-                "config.status",
-                "configure",
                 "configure.ac",
                 "COPYING",
-                "libsecp256k1-0.1.tar.gz",
-                "libsecp256k1.pc",
                 "libsecp256k1.pc.in",
-                "libtool",
-                "Makefile",
                 "Makefile.am",
-                "Makefile.in",
                 "README.md",
                 "SECURITY.md",
                 "TODO",
